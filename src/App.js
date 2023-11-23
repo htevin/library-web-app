@@ -46,13 +46,9 @@ function App() {
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route path="/" exact component={Home} />
-        <Route path="/home" exact component={Home} />
-
-
 
         <Route path='https://htevin.github.io//library-web-app' exact component={Home}/>
         <Route path='https://htevin.github.io//library-web-app/' exact component={Home}/>
-        <Route path='https://htevin.github.io//library-web-app' component={Home}/>
         <Route path='/library-web-app' exact component={Home}/>
 
 
